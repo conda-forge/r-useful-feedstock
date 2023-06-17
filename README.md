@@ -1,11 +1,11 @@
-About r-useful
-==============
+About r-useful-feedstock
+========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-useful-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/jaredlander/useful
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-useful-feedstock/blob/main/LICENSE.txt)
 
 Summary: A set of little functions that have been found useful to do little odds and ends such as plotting the results of K-means clustering, substituting special text characters, viewing parts of a data.frame, constructing formulas from text and building design and response matrices.
 
