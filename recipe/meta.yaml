@@ -1,4 +1,4 @@
-{% set version = '1.2.6' %}
+{% set version = "1.2.6.1" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/useful_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/useful/useful_{{ version }}.tar.gz
-  sha256: 611f43215399536ab3cd5069a5092e43510eaf24a1c521b046a1cc7270d8a058
+  sha256: 6cfb27227db7a2a064bb1255ed5e56fd58458df84f53ec9a29f99aba368669bd
 
 build:
-  merge_build_host: True  # [win]
-  number: 2
+  merge_build_host: true  # [win]
+  number: 0
   noarch: generic
 
   rpaths:
@@ -57,10 +57,7 @@ about:
   home: https://github.com/jaredlander/useful
 
   license: BSD-3-Clause
-  summary: A set of little functions that have been found useful to do little odds and ends such
-    as plotting the results of K-means clustering, substituting special text characters,
-    viewing parts of a data.frame, constructing formulas from text and building design
-    and response matrices.
+  summary: A set of little functions that have been found useful to do little odds and ends such as plotting the results of K-means clustering, substituting special text characters, viewing parts of a data.frame, constructing formulas from text and building design and response matrices.
 
   license_family: BSD
   license_file:
